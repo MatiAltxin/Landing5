@@ -53,6 +53,25 @@
     .item-12 {
         display: none;
     }
+
+    .container {
+        max-width: 1300px;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container-grid-card {
+        margin: 100px 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
+      
+      .container-grid-card img {
+        width: 100%;
+        height: auto;
+        display: none;
+        opacity: 0;
+      }
       
 }
 @media screen and (max-width: 800px) { 
